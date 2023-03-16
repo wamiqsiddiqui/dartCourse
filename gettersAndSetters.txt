@@ -1,0 +1,8 @@
+import 'package:dart_app/student.dart';
+Future<void> main() async {
+   Student afridiBhai = Student("Ehsan Afridi",12);
+  print('afridiBhai.name = ${afridiBhai.getName()}');
+  afridiBhai.setName("Afridi");
+  String name = afridiBhai.getName();
+  print('name  = $name');
+}
